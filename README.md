@@ -13,6 +13,7 @@
      - Seed the database with at least five entries
      - Confirm that the seed worked by checking the MySQL shell
    - Create dbHelper functions in `database/dbHelpers.js`
+   ^ am here
 3. Server:
    - Create an Express server in `server/index.js`
    - Create a simple test GET route

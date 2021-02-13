@@ -4,6 +4,8 @@
   "description": "Review for Express and mySQL",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "mysql -u root -p < ./database/schema.sql",
     "testDB": "nodemon ./database/index.js"
   },
   "repository": {
